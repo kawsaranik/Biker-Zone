@@ -43,6 +43,21 @@
       .font-poppins {
         font-family: "Poppins", sans-serif;
       }
+
+
+    <style>
+    /* Add hover effect to featured bike images */
+    .featured-bike img:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    /* Add hover effect to client review cards */
+    .card:hover {
+      transform: translateY(-30px);
+      transition: transform 0.2s ease-in-out;
+    }
+  </style>
     </style>
   </head>
   <body class="font-poppins">
@@ -202,9 +217,9 @@
       </div>
     </header>
     <main class="md:container md:mx-auto">
-        <section class="mt-10 pt-20 ">
+        <section class="mt-5 pt-10 ">
             <!-- featured bike -->
-            <div class="text-center pb-16">
+            <div class="text-center">
                 <h3 class="text-4xl">
                     Fetured Bikes In This Year
                 </h3>
@@ -212,7 +227,7 @@
                     Best bike collection
                 </p>
             </div>
-            <div class="flex justify-around items-center gap-5 py-20">
+            <div class="flex justify-around items-center gap-2 py-20">
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 space-y-5">
                     <img src="images/others/feature-bike.png" alt="">
                     <img src="images/others/feature-bike 2.png" alt="">
@@ -412,7 +427,7 @@
               <p class="mb-2">Basabo, Dhaka-1214</p>
               <p class="mb-2">Dhaka, Bangladesh</p>
               <p class="mb-2">Phone: +88012345678</p>
-              <p>Email:anik97287@gmail.com</p>
+              <p>Email: anik97287@gmail.com</p>
             </div>
             
             <!-- Social Media Links -->
