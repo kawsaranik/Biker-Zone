@@ -172,7 +172,7 @@
             <a href="#slide4" class="btn btn-circle">❯</a>
           </div>
         </div>
-        <!-- slide 4 -->
+        slide 4
         <div id="slide4" class="carousel-item relative w-full">
             <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24">
                 <div class="space-y-7 flex-1">
@@ -201,20 +201,75 @@
       </div>
     </header>
     <main class="md:container md:mx-auto">
-        <section class="mt-10 pt-20">
+        <section class="mt-10 pt-20 ">
             <!-- featured bike -->
             <div class="text-center pb-16">
                 <h3 class="text-4xl">
                     Fetured Bikes In This Year
                 </h3>
-                <p>
+                <p class="text-[#E76F51]">
                     Best bike collection
                 </p>
             </div>
-            <div class="flex justify-around">
-                <img src="images/others/feature-bike.png" alt="">
-                <img src="images/others/feature-bike.png" alt="">
-                <img src="images/others/feature-bike.png" alt="">
+            <div class="flex justify-around items-center gap-5 py-20">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 space-y-5">
+                    <img src="images/others/feature-bike.png" alt="">
+                    <img src="images/others/feature-bike 2.png" alt="">
+                    <img src="images/others/feature-bike 3.png" alt="">
+                </div>
+            </div>
+
+            <section>
+                <div class="hero min-h-screen" style="background-image: url(images/others/background.jpg);">
+                    <div class="hero-overlay bg-opacity-70"></div>
+                    <div class="hero-content text-center align-middle text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold uppercase">Royal Enfield</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn text-white bg-bike-primary">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            
+        </section>
+        <!-- latest bikes -->
+        <section class="my-24">
+            <h3 class="text-5xl font-semibold text-center">Latest Bikes</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- first card -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/others/latest1.png" alt="Bike" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-bike-primary text-white uppercase">Purchase</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- Second card -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/others/latest2.png" alt="Bike" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-bike-primary text-white uppercase">Purchase</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- Third card -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/others/latest3.png" alt="Bike" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-bike-primary text-white uppercase">Purchase</button>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </section>
     </main>
